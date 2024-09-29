@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #a5cfff;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  position: relative;
+  width: 80vmin;
+  background-color: #1d2f6f;
+  padding: 100px 40px;
+  border-radius: 9px;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.2);
+}
+
+.container:after {
+  content: "";
+  position: absolute;
+  width: 85%;
+  left: 7.5%;
+  height: 120%;
+  bottom: -10%;
+  background-color: #8390fa;
+  z-index: -1;
+  border-radius: 8px;
+}
+h1 {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 80px;
+  color: #ffffff;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.btns button {
+  width: 130px;
+  padding: 15px 0;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.increase__Button,
+button.decrease__Button {
+  background-color: #8390fa;
+  color: #ffffff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+button.reset__Button {
+  background-color: transparent;
+  border: 4px solid #8390fa;
+  color: #8390fa;
+}
