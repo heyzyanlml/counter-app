@@ -26,10 +26,6 @@ This project was developed using:
 
 ---
 
-Happy coding! 💻
-
----
-
 ### ESPAÑOL
 
 ¡Hola! 👋 Este es un proyecto sencillo que te permite incrementar, decrementar y restablecer un contador. Es ideal para practicar conceptos básicos de manipulación del DOM en JavaScript. 💡
@@ -56,4 +52,4 @@ Este proyecto fue desarrollado utilizando:
 
 ---
 
-¡Feliz codificación! 💻
+Happy coding! 💻
